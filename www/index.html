@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<title>Facebook App</title>
+		<meta http-equiv="X-UA-Compatible" charset="UTF-8">
+		<link href="css/default.css" rel="stylesheet">
+
+		<!--[if lt IE 10]>
+		<style type="text/css">
+			*{
+				behavior: url(css/PIE.php);
+			}
+		</style>
+		<![endif]-->
+
+		<script src="https://connect.facebook.net/en_US/all.js"></script>
+		<script type="text/javascript" src="js/modernizr-2.5.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/underscore-min.js"></script>
+		<script type="text/javascript" src="js/gs/TweenMax.min.js"></script>
+
+		<script type="text/javascript" src="js/sammy/sammy-0.7.1.min.js"></script>
+		<script src="js/sammy/plugins/sammy.template-0.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript" src="js/fbapp/main.js"></script>
+		<script type="text/javascript" src="js/fbapp/globals.js"></script>
+
+		<script type="text/javascript" src="js/fbapp/facebook.js"></script>
+		
+		<script type="text/javascript" src="js/fbapp/app.js"></script>
+	</head>
+
+	<body>
+		<div id="fb-root"></div>
+		
+		<div id="mainContainer">
+			<header id="header">
+				
+			</header>
+
+			<div id="contentHolder">
+				
+			</div>
+
+			<footer class="footer">
+
+			</footer>
+		</div>
+	</body>
+
+	<footer>
+		<script type="text/javascript">
+			$(function(){
+				Fbapp.init();
+			});
+		</script>
+	</footer>
+</html>
