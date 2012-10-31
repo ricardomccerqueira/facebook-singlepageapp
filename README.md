@@ -5,6 +5,7 @@ basic html singlepage app for facebook with js api
 
 
 External libraries used:
+
 	http://jquery.com/   ##mainly for dom manipulation
 
 	http://www.greensock.com/get-started-js/   ##animations
