@@ -1,12 +1,16 @@
 var Fbapp = {
+	applicationLoaded:false,
+
 	init:function(){
 		Fbapp.facebookHandler.init();
 		//Fbapp.app.run('#/');
 	},
 
-	applicationReady:function(){
+	showApplication:function(){
+		applicationLoaded = true;
+
 		setTimeout(function(){
-			$('#mainContainer').fadeIn('fast',function(){
+			$('#mainContainer').fadeIn(1,Quad.easeInOut,function(){
 				$('#mainContainer').addClass('anim');
 			});
 		},100);

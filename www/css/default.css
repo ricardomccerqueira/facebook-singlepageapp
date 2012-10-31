@@ -507,8 +507,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 #mainContainer {
-  display: none !important;
+  width: 810px;
+  margin: auto;
+  min-height: 500px;
+  display: none;
   visibility: hidden;
+}
+#facebook-permissions-popup {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: none;
+  visibility: hidden;
+  overflow: hidden;
+  z-index: 110;
+}
+#modalbackground {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  display: none;
 }
 /* ==========================================================================
    Less Variables
@@ -561,7 +586,7 @@ textarea {
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 .hidden {
-  display: none !important;
+  display: none;
   visibility: hidden;
 }
 /*

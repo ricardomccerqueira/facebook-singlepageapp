@@ -1,23 +1,37 @@
 facebook-singlepageapp
 ======================
 
+
+description
+======================
+
 basic html singlepage app for facebook with js api
 
 
-External libraries used:
 
-	http://jquery.com/   ##mainly for dom manipulation
+External libraries used
+======================
 
-	http://www.greensock.com/get-started-js/   ##animations
+	##mainly for dom manipulation:
+		http://jquery.com/   
 
-	http://sammyjs.org/   ##hashcode navigation and templating
+	##animation library:
+		http://www.greensock.com/get-started-js/   
 
-	http://underscorejs.org/   ##set of utils
+	##hashcode navigation and templating:
+		http://sammyjs.org/   
+
+	##set of utils:
+		http://underscorejs.org/   
 	
-	http://modernizr.com/   ##giving some awesomeness to older browsers
+	##giving some awesomeness to older browsers:
+		http://modernizr.com/   
 	
-	http://css3pie.com/	//giving some awesomeness to older browsers
+	##giving some awesomeness to older browsers:
+		http://css3pie.com/
 	
-	https://developers.facebook.com/docs/reference/api/   ##facebook graph api
+	##facebook graph api:
+		https://developers.facebook.com/docs/reference/api/   
 	
-	http://lesscss.org/   ##css variables
+	##css variables:
+		http://lesscss.org/  

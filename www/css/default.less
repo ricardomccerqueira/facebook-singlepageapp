@@ -581,7 +581,32 @@ textarea {
    ========================================================================== */
 
 #mainContainer{
+    width:810px;
+    margin:auto;
+    min-height:500px;
     .hidden();
+}
+
+#facebook-permissions-popup{
+    position: relative;
+    margin: 0 auto;
+    width: 300px;    
+    padding-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    .hidden();
+    .modal-item();
+}
+
+#modalbackground{
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
 }
 
 /* ==========================================================================
@@ -596,6 +621,11 @@ textarea {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
+.modal-item(){
+    overflow: hidden;
+    z-index:110;
+}
 
 .button{
     cursor:pointer;
@@ -653,7 +683,7 @@ textarea {
  */
 
 .hidden {
-    display: none !important;
+    display:none;
     visibility: hidden;
 }
 

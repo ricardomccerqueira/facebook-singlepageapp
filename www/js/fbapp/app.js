@@ -7,11 +7,12 @@ Fbapp.app=$.sammy(function(){
 	this.swap = function(content,area) {
 		$('#sectionsHolder').fadeOut('slow', function(){
 			Fbapp.app.loaderElement.html(content);
-			$('#sectionsHolder').fadeIn('slow');
+
+			$('#facebook-permissions-popup').fadeIn(0.4,Quad.easeInOut);
 		});
 	};
 
-	this.init = function(){				
+	this.init = function(){
 		Fbapp.app.loaded = true;
 	};
 

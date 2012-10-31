@@ -6,16 +6,18 @@
 		<link href="css/default.css" rel="stylesheet">
 
 		<!--[if lt IE 10]>
-		<style type="text/css">
-			*{
-				behavior: url(css/PIE.php);
-			}
-		</style>
+			<style type="text/css">
+				*{
+					behavior: url(css/PIE.php);
+				}
+			</style>
+			<script type="text/javascript" src="js/modernizr-2.5.3.min.js"></script>
 		<![endif]-->
 
-		<script src="https://connect.facebook.net/en_US/all.js"></script>
-		<script type="text/javascript" src="js/modernizr-2.5.3.min.js"></script>
+		<script src="https://connect.facebook.net/en_US/all.js"></script>		
 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/fbapp/scripts-rewrite.js"></script>
+	
 		<script type="text/javascript" src="js/underscore-min.js"></script>
 		<script type="text/javascript" src="js/gs/TweenMax.min.js"></script>
 
@@ -32,7 +34,7 @@
 
 	<body>
 		<div id="fb-root"></div>
-		
+
 		<div id="mainContainer">
 			<header id="header">
 				
@@ -46,7 +48,15 @@
 
 			</footer>
 		</div>
+
+		<div id="facebook-permissions-popup">
+			<div id="addpermisionsbutton">
+				ALLOW PERMISSIONS
+			</div>
+		</div>
 	</body>
+
+	<div id="modalbackground"></div>
 
 	<footer>
 		<script type="text/javascript">
