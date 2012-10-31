@@ -35,3 +35,10 @@ External libraries used
 	
 	##css variables:
 		http://lesscss.org/  
+
+
+Credits
+======================
+
+		##jquery fade method overwrite
+			http://jiffymedia.com/blog.html
