@@ -15,21 +15,23 @@
 		<![endif]-->
 
 		<script src="https://connect.facebook.net/en_US/all.js"></script>		
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/fbapp/scripts-rewrite.js"></script>
-	
-		<script type="text/javascript" src="js/underscore-min.js"></script>
-		<script type="text/javascript" src="js/gs/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/libs/jquery.min.js"></script>	
+		<script type="text/javascript" src="js/libs/underscore-min.js"></script>
+		<script type="text/javascript" src="js/libs/gs/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/libs/smoke.min.js"></script>
 
-		<script type="text/javascript" src="js/sammy/sammy-0.7.1.min.js"></script>
-		<script src="js/sammy/plugins/sammy.template-0.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/libs/sammy/sammy-0.7.1.min.js"></script>
+		<script type="text/javascript" src="js/libs/sammy/plugins/sammy.template-0.7.1.min.js" charset="utf-8"></script>
 
-		<script type="text/javascript" src="js/fbapp/main.js"></script>
-		<script type="text/javascript" src="js/fbapp/globals.js"></script>
+		<script type="text/javascript" src="js/fbapp/Fbapp.js"></script>
 
-		<script type="text/javascript" src="js/fbapp/facebook.js"></script>
-		
-		<script type="text/javascript" src="js/fbapp/app.js"></script>
+		<script type="text/javascript" src="js/fbapp/helpers/scripts-rewrite.js"></script>
+		<script type="text/javascript" src="js/fbapp/helpers/Log.js"></script>
+
+		<script type="text/javascript" src="js/fbapp/Globals.js"></script>
+		<script type="text/javascript" src="js/fbapp/FacebookBridge.js"></script>
+
+		<script type="text/javascript" src="js/fbapp/routes/Home.js"></script>
 	</head>
 
 	<body>
@@ -48,16 +50,8 @@
 
 			</footer>
 		</div>
-
-		<div id="facebook-permissions-popup">
-			<div id="addpermisionsbutton">
-				ALLOW PERMISSIONS
-			</div>
-		</div>
 	</body>
-
-	<div id="modalbackground"></div>
-
+	
 	<footer>
 		<script type="text/javascript">
 			$(function(){
