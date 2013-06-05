@@ -1,0 +1,10 @@
+$color_white:white;
+$color_black:black;
+$app_width:810px;
+
+@mixin transition($property, $duration:0.3s, $function: ease-out){
+  -moz-transition: $property $duration;  /* FF3.7+ */
+  -o-transition: $property $duration ease-out;  /* Opera 10.5 */
+  -webkit-transition: $property $duration;  /* Saf3.2+, Chrome */
+  transition: $property $duration; 
+}

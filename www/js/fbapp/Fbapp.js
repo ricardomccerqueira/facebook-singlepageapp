@@ -19,9 +19,9 @@ Fbapp.app=$.sammy(function(){
 	this.use('Template');
 
 	this.swap = function(content) {
-		$('#sectionsHolder').fadeOut('slow', function(){
+		$('#contentHolder').fadeOut('slow', function(){
 			Fbapp.loaderElement.html(content);
-			$('#sectionsHolder').fadeIn('slow');
+			$('#contentHolder').fadeIn('slow');
 		});
 	};
 });
